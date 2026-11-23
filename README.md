@@ -43,7 +43,7 @@ Open [http://localhost:8080](http://localhost:8080). The first run creates a loc
 
 ## Vercel demo
 
-`Dockerfile.vercel` packages the Spring Boot app in a Java 21 container. Vercel's container runtime is stateless, while this demo uses an H2 file database, so saved changes are not guaranteed to persist across container replacement or deployment. The public page displays a notice; use sample information only. A durable personal tracker needs a persistent production database and access control.
+`Dockerfile.vercel` packages the Spring Boot app in a Java 21 container. The live demo is public, has no account access control, and uses H2 on Vercel's stateless container runtime. Anyone can view and change the shared demo data, which may reset across container replacement or deployment. Use sample information only. A durable personal tracker needs a persistent production database and access control.
 
 To deploy with an authenticated Vercel CLI, run `npx vercel@latest --prod` from the project folder. Vercel detects `Dockerfile.vercel` and routes to the Spring Boot server on `PORT` (80 by default).
 
