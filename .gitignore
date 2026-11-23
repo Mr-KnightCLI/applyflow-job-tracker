@@ -1,0 +1,9 @@
+target/
+.vercel/
+data/
+.maven-cache/
+.taste-skill/
+.idea/
+*.iml
+
+.vercel

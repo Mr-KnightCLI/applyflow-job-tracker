@@ -1,0 +1,8 @@
+.git
+.mvn
+.maven-cache
+.taste-skill
+data
+target
+*.mv.db
+*.trace.db
